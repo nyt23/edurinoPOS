@@ -1,0 +1,1 @@
+# edurino POS
