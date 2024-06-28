@@ -4,9 +4,7 @@
     src: url('../../assets/fonts/Atma/Atma-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 
 .mask-layer {
@@ -47,5 +45,5 @@
     top: 0;
     left: 0;
     background-color: #3FBFF0;
-    z-index: -3;
+    z-index: -4;
 }
