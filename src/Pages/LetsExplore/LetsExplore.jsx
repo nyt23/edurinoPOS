@@ -1,5 +1,5 @@
 // import foxSvg from '../assets/fox.svg';
-import './LetsExplore.css'
+import './LetsExplore.css';
 
 
 // mask-layer
@@ -11,14 +11,13 @@ import Button from "./Button/Button.jsx";
 // video-layer
 import IntroVideo from "../../Media/Videos/IntroVideo/IntroVideo.jsx";
 
-
 // background-layer
 import Deco from "../../Media/Pictures/PicLetsExplore/Deco/Deco.jsx";
 
 
-
 export default function LetsExplore () {
     return (
+        <>
         <div>
             <div className={'mask-layer'}>
                 {/*<img src={foxSvg} alt={'fox'}/>*/}
@@ -37,8 +36,8 @@ export default function LetsExplore () {
 
             <div className={'background-layer'}>
                 <Deco />
-
             </div>
         </div>
+    </>
     )
 }

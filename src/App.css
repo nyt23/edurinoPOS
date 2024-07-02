@@ -5,3 +5,24 @@ body {
   position: relative;
 }
 
+
+/*.page-enter {*/
+/*  opacity: 0;*/
+/*  transform: scale(0.9);*/
+/*}*/
+
+/*.page-enter-active {*/
+/*    opacity: 1;*/
+/*    transform: translateX(0);*/
+/*    transition: opacity 300ms, transform 300ms;*/
+/*}*/
+
+/*.page-exit {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.page-exit-active {*/
+/*    opacity: 0;*/
+/*    transform: scale(1.1);*/
+/*    transition: opacity 300ms, transform 300ms;*/
+/*}*/

@@ -8,17 +8,17 @@
 
 
 .button {
-    position: relative;
-    top: 1100px;
+    position: absolute;
+    top: 1290px;
     left:-35px;
-    display: inline-block;
+    /*display: inline-block;*/
     width: 303px;
     height: 303px;
     border: 8px solid #fff;
     text-decoration: none;
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*transition: .3s;*/
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     background: linear-gradient(to right, #FFBA5D, #FD9100);
     border-radius: 50%; /* Make the button a circle */
     color: #FEF7EE;
@@ -28,7 +28,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 80px; /* 117.647% */
-    z-index: -1;
 }
 
 
@@ -46,10 +45,10 @@
 /*    transition: .3s;*/
 /*}*/
 
-.button:hover::before {
-    width: 100%;
-    height: 100%;
-}
+/*.button:hover::before {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
 @keyframes blink {
     0% {opacity: 1;}
@@ -59,10 +58,10 @@
 
 @keyframes ripple {
     0% {transform: scale(1);}
-    50% {transform: scale(1.25);}
+    50% {transform: scale(1.15);}
     100% {transform: scale(1);}
 }
 
 .button {
-    animation: blink 2s infinite, ripple 2s infinite;
+    animation: blink 1s infinite, ripple 1s infinite;
 }

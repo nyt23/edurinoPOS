@@ -1,0 +1,7 @@
+
+.blue-banner-front {
+    left: 0;
+    top: -10px;
+    position: absolute;
+    z-index: -1;
+}
