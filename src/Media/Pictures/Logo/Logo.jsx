@@ -4,7 +4,7 @@ import './Logo.css'
 
 const Logo = () => {
     return (
-        <svg className="Logo" width="269" height="151" viewBox="0 0 269 151" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <svg className="logo" width="269" height="151" viewBox="0 0 269 151" fill="none" xmlns="http://www.w3.org/2000/svg"
              xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="269" height="151" fill="url(#pattern0_661_22)"/>
             <defs>
