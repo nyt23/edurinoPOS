@@ -1,28 +1,26 @@
 body {
   width: 1080px;
   height: 1920px;
-  padding: 0;
+  margin: 0;
   position: relative;
 }
 
 
-/*.page-enter {*/
+/*.fade-enter {*/
 /*  opacity: 0;*/
-/*  transform: scale(0.9);*/
+/*  z-index: 1;*/
 /*}*/
 
-/*.page-enter-active {*/
-/*    opacity: 1;*/
-/*    transform: translateX(0);*/
-/*    transition: opacity 300ms, transform 300ms;*/
+/*.fade-enter-active {*/
+/*  opacity: 1;*/
+/*  transition: opacity 300ms ease-in;*/
 /*}*/
 
-/*.page-exit {*/
-/*    opacity: 1;*/
+/*.fade-exit {*/
+/*  opacity: 1;*/
 /*}*/
 
-/*.page-exit-active {*/
-/*    opacity: 0;*/
-/*    transform: scale(1.1);*/
-/*    transition: opacity 300ms, transform 300ms;*/
+/*.fade-exit-active {*/
+/*  opacity: 0;*/
+/*  transition: opacity 300ms ease-in;*/
 /*}*/

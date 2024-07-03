@@ -1,0 +1,20 @@
+
+.interactive-button {
+    left: 76px;
+    top: 1226px;
+    position: absolute;
+    background: linear-gradient(to right, #FFB34D 10%, #FD9100 95%, #F68D00 100%);
+    width: 252px;
+    height: 252px;
+    text-align: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #FEF7EE;
+    text-decoration: none;
+    border-radius: 50%;
+    border: none;
+}
