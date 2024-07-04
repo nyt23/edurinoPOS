@@ -1,0 +1,20 @@
+
+.comment-button {
+    left: 757px;
+    top: 1132px;
+    position: absolute;
+    background: linear-gradient(to right, #70D7FF 5%, #3FBFF0 70%, #4AB2D9 100%);
+    width: 262px;
+    height: 262px;
+    text-align: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: #FEF7EE;
+    text-decoration: none;
+    border-radius: 50%;
+    border: none;
+}

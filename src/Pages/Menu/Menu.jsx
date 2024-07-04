@@ -13,15 +13,19 @@ import Star from "../../Media/Pictures/PicMenu/DecoElements/Star/Star.jsx";
 import Figurine from "../../Media/Pictures/PicMenu/DecoElements/Figurine/Figurine.jsx";
 import ABC from "../../Media/Pictures/PicMenu/DecoElements/ABC/ABC.jsx";
 import {
-    AnimatedBlueCommentBg,
-    AnimatedBlueSecureBg,
+    AnimatedBlueCommentBg, AnimatedBlueCommentButton,
+    AnimatedBlueSecureBg, AnimatedBlueSecureButton,
     AnimatedDiscountButton,
     AnimatedOrangeDiscountBg,
     AnimatedOrangeHelpBg,
     AnimatedOrangeHelpButton,
     AnimatedOrangeInteractiveBg,
     AnimatedOrangeInteractiveButton,
-    AnimatedPurpleBeginBg, AnimatedPurpleGameBg, AnimatedPurpleUpdateBg
+    AnimatedPurpleBeginBg,
+    AnimatedPurpleBeginButton,
+    AnimatedPurpleGameBg,
+    AnimatedPurpleGameButton,
+    AnimatedPurpleUpdateBg, AnimatedPurpleUpdateButton
 } from "./BubbleAnimation/BubbleAnimation.jsx";
 import Dot from "../../Media/Pictures/PicMenu/DecoElements/Dot/Dot.jsx";
 import Rocket from "../../Media/Pictures/PicMenu/DecoElements/Rocket/Rocket.jsx";
@@ -62,10 +66,15 @@ const Menu = () => {
                         <AnimatedOrangeInteractiveBg />
                         <AnimatedOrangeInteractiveButton />
                         <AnimatedBlueCommentBg />
+                        <AnimatedBlueCommentButton />
                         <AnimatedBlueSecureBg />
+                        <AnimatedBlueSecureButton />
                         <AnimatedPurpleBeginBg />
+                        <AnimatedPurpleBeginButton />
                         <AnimatedPurpleGameBg />
+                        <AnimatedPurpleGameButton />
                         <AnimatedPurpleUpdateBg />
+                        <AnimatedPurpleUpdateButton />
                         <Children/>
                         <Star/>
                         <Figurine/>

@@ -1,0 +1,20 @@
+
+.secure-button {
+    left: 396px;
+    top: 582px;
+    position: absolute;
+    background: linear-gradient(to right, #70D7FF 5%, #3FBFF0 70%, #4AB2D9 100%);
+    width: 303px;
+    height: 303px;
+    text-align: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 1px;
+    color: #FEF7EE;
+    text-decoration: none;
+    border-radius: 50%;
+    border: none;
+}

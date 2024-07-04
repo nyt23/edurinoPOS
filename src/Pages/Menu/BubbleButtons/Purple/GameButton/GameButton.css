@@ -1,0 +1,20 @@
+
+.game-button {
+    left: 215px;
+    top: 1560px;
+    position: absolute;
+    background: linear-gradient(to right, #A87BFF 5%, #8C52FE 70%, #774AD0 100%);
+    width: 303px;
+    height: 303px;
+    text-align: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #FEF7EE;
+    text-decoration: none;
+    border-radius: 50%;
+    border: none;
+}
