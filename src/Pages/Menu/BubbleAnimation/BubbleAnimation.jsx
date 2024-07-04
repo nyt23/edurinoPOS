@@ -8,7 +8,11 @@ import OrangeInteractiveBg
     from "../../../Media/Pictures/PicMenu/BubbleBg/OrangeBubblesBg/InteractiveBg/OrangeInteractiveBg.jsx";
 import HelpButton from "../BubbleButtons/Orange/HelpButton/HelpButton.jsx";
 import InteractiveButton from "../BubbleButtons/Orange/InteractiveButton/InteractiveButton.jsx";
-
+import BlueCommentBg from "../../../Media/Pictures/PicMenu/BubbleBg/BlueBubblesBg/CommentBg/BlueCommentBg.jsx";
+import BlueSecureBg from "../../../Media/Pictures/PicMenu/BubbleBg/BlueBubblesBg/SecureBg/BlueSecureBg.jsx";
+import PurpleBeginBg from "../../../Media/Pictures/PicMenu/BubbleBg/PurpleBubbles/BeginBg/PurpleBeginBg.jsx";
+import PurpleGameBg from "../../../Media/Pictures/PicMenu/BubbleBg/PurpleBubbles/GameBg/PurpleGameBg.jsx";
+import PurpleUpdateBg from "../../../Media/Pictures/PicMenu/BubbleBg/PurpleBubbles/UpdateBg/PurpleUpdateBg.jsx";
 
 // Fade in animation
 const FadeInSpring = delay => useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: delay });
@@ -43,4 +47,39 @@ export const AnimatedOrangeInteractiveBg = () => {
 export const AnimatedOrangeInteractiveButton = () => {
     const props = FadeInSpring(400);
     return <animated.div style={props}><InteractiveButton /></animated.div>
+}
+
+export const AnimatedBlueCommentBg = () => {
+    const props =FadeInSpring(500);
+    return <animated.div style={props}><BlueCommentBg /></animated.div>
+}
+
+
+//button BlueComment
+
+
+export const AnimatedBlueSecureBg = () => {
+    const props = FadeInSpring(600);
+    return <animated.div style={props}><BlueSecureBg /></animated.div>
+}
+
+// button BlueSecure
+
+export const AnimatedPurpleBeginBg = () => {
+    const props = FadeInSpring(300);
+    return <animated.div style={props}><PurpleBeginBg /></animated.div>
+}
+
+// button purpleBegin
+
+export const AnimatedPurpleGameBg = () => {
+    const props = FadeInSpring(700);
+    return <animated.div style={props}><PurpleGameBg /></animated.div>
+}
+
+// button purpleGame
+
+export const AnimatedPurpleUpdateBg = () => {
+    const props = FadeInSpring(900);
+    return <animated.div style={props}><PurpleUpdateBg /></animated.div>
 }

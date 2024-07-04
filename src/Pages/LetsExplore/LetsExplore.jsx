@@ -12,7 +12,7 @@ import Button from "./Button/Button.jsx";
 import IntroVideo from "../../Media/Videos/IntroVideo/IntroVideo.jsx";
 
 // background-layer
-import Deco from "../../Media/Pictures/PicLetsExplore/Deco/Deco.jsx";
+import StarAndDots from "../../Media/Pictures/PicLetsExplore/StarAndDots/StarAndDots.jsx";
 
 
 export default function LetsExplore () {
@@ -35,7 +35,7 @@ export default function LetsExplore () {
             </div>
 
             <div className={'background-layer'}>
-                <Deco />
+                <StarAndDots />
             </div>
         </div>
     </>

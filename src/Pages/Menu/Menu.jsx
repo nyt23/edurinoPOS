@@ -8,15 +8,24 @@ import Logo from "../../Media/Pictures/Logo/Logo.jsx";
 import Bg from '../../Media/Pictures/PicMenu/Bg/Bg.jsx';
 // blueBanner
 import BlueBanner from "../../Media/Pictures/PicMenu/BlueBanner/BlueBanner.jsx";
-import Children from "../../Media/Pictures/PicMenu/Elements/Children/Children.jsx";
-import Star from "../../Media/Pictures/PicMenu/Elements/Star/Star.jsx";
-import Figurine from "../../Media/Pictures/PicMenu/Elements/Figurine/Figurine.jsx";
-import ABC from "../../Media/Pictures/PicMenu/Elements/ABC/ABC.jsx";
+import Children from "../../Media/Pictures/PicMenu/DecoElements/Children/Children.jsx";
+import Star from "../../Media/Pictures/PicMenu/DecoElements/Star/Star.jsx";
+import Figurine from "../../Media/Pictures/PicMenu/DecoElements/Figurine/Figurine.jsx";
+import ABC from "../../Media/Pictures/PicMenu/DecoElements/ABC/ABC.jsx";
 import {
+    AnimatedBlueCommentBg,
+    AnimatedBlueSecureBg,
     AnimatedDiscountButton,
     AnimatedOrangeDiscountBg,
-    AnimatedOrangeHelpBg, AnimatedOrangeHelpButton, AnimatedOrangeInteractiveBg, AnimatedOrangeInteractiveButton
+    AnimatedOrangeHelpBg,
+    AnimatedOrangeHelpButton,
+    AnimatedOrangeInteractiveBg,
+    AnimatedOrangeInteractiveButton,
+    AnimatedPurpleBeginBg, AnimatedPurpleGameBg, AnimatedPurpleUpdateBg
 } from "./BubbleAnimation/BubbleAnimation.jsx";
+import Dot from "../../Media/Pictures/PicMenu/DecoElements/Dot/Dot.jsx";
+import Rocket from "../../Media/Pictures/PicMenu/DecoElements/Rocket/Rocket.jsx";
+import Symbol from "../../Media/Pictures/PicMenu/DecoElements/Symbol/Symbol.jsx";
 
 
 
@@ -52,10 +61,18 @@ const Menu = () => {
                         <AnimatedOrangeHelpButton />
                         <AnimatedOrangeInteractiveBg />
                         <AnimatedOrangeInteractiveButton />
+                        <AnimatedBlueCommentBg />
+                        <AnimatedBlueSecureBg />
+                        <AnimatedPurpleBeginBg />
+                        <AnimatedPurpleGameBg />
+                        <AnimatedPurpleUpdateBg />
                         <Children/>
                         <Star/>
                         <Figurine/>
                         <ABC/>
+                        <Dot />
+                        <Rocket />
+                        <Symbol />
                     </div>
                 </div>
             </div>

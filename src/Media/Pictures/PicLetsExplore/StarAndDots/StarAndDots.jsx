@@ -1,7 +1,7 @@
 
-import './Deco.css'
+import './StarAndDots.css'
 
-const Deco = () => {
+const StarAndDots = () => {
     return (
         <div>
             <svg className={'deco'} width="527" height="346" viewBox="0 0 527 346" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -27,4 +27,4 @@ const Deco = () => {
     )
 }
 
-export default Deco;
+export default StarAndDots;
