@@ -1,3 +1,7 @@
+import { useEffect } from "react";
+import { Howl } from 'howler';
+import bubbleRiseSound from "../../assets/Sound/bubbleRiseSound.mp3";
+
 
 import './Menu.css'
 
@@ -15,8 +19,7 @@ import ABC from "../../Media/Pictures/PicMenu/DecoElements/ABC/ABC.jsx";
 import {
     AnimatedBlueCommentBg, AnimatedBlueCommentButton,
     AnimatedBlueSecureBg, AnimatedBlueSecureButton,
-    AnimatedDiscountButton,
-    AnimatedOrangeDiscountBg,
+    AnimatedOrangeDiscountBg, AnimatedOrangeDiscountButton,
     AnimatedOrangeHelpBg,
     AnimatedOrangeHelpButton,
     AnimatedOrangeInteractiveBg,
@@ -35,6 +38,19 @@ import Symbol from "../../Media/Pictures/PicMenu/DecoElements/Symbol/Symbol.jsx"
 
 
 const Menu = () => {
+    useEffect(() => {
+        const sound = new Howl({
+            src: bubbleRiseSound,
+            volume: 1,
+        });
+        // sound plays with 0.2s delay
+        const timer = setTimeout(() => {
+            sound.play();
+        }, 200);
+
+        return () => clearTimeout(timer);
+    }, [])
+
     return (
         <div>
             <div className={'bg'}><Bg /></div>
@@ -60,7 +76,7 @@ const Menu = () => {
                 <div className={'circle-options'}>
                     <div>
                         <AnimatedOrangeDiscountBg/>
-                        <AnimatedDiscountButton/>
+                        <AnimatedOrangeDiscountButton/>
                         <AnimatedOrangeHelpBg />
                         <AnimatedOrangeHelpButton />
                         <AnimatedOrangeInteractiveBg />

@@ -19,7 +19,7 @@ import UpdateButton from "../BubbleButtons/Purple/UpdateButton/UpdateButton.jsx"
 import CommentButton from "../BubbleButtons/Blue/CommentButton/CommentButton.jsx";
 import SecureButton from "../BubbleButtons/Blue/SecureButton/SecureButton.jsx";
 
-// Fade in animation
+// create a variable for fade in animation
 const FadeInSpring = delay => useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: delay });
 
 // Repeat for each component that needs to fade in
@@ -28,7 +28,7 @@ export const AnimatedOrangeDiscountBg = () => {
     return <animated.div style={props}><OrangeDiscountBg /></animated.div>;
 };
 
-export const AnimatedDiscountButton = () => {
+export const AnimatedOrangeDiscountButton = () => {
     const props = FadeInSpring(100);
     return <animated.div style={props}><DiscountButton /></animated.div>;
 };
