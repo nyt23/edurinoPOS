@@ -1,10 +1,10 @@
 
 
-import './DiscountPageBg.css';
+import './PurplePageBg.css';
 
-const DiscountPageBg = () => {
+const PurplePageBg = () => {
     return (
-        <svg className={'discount-page-bg'} width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className={'purple-page-bg'} width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d_676_284)">
                 <circle cx="885" cy="1263" r="1328" fill="#8C52FE"/>
             </g>
@@ -27,4 +27,4 @@ const DiscountPageBg = () => {
     );
 }
 
-export default DiscountPageBg;
+export default PurplePageBg;

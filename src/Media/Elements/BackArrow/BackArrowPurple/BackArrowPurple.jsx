@@ -5,16 +5,14 @@ import './BackArrowPurple.css';
 
 const BackArrowPurple = ({ onClick }) => {
     const [isClicked, setIsClicked] = useState(false);
-
-    // useEffect(() => {
-    //     console.log(isClicked); // This will log the updated state
-    // }, [isClicked]);
-
+    //
     const handleClick = (e) => {
         setIsClicked(true);
         // console.log(isClicked);
         // delay the click event to allow the animation to play
-        setTimeout(() => setIsClicked(false), 500);
+        // setTimeout(() => {
+        //     setIsClicked(false);
+        // });
         // console.log(isClicked);
         onClick(e);
     };

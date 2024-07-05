@@ -1,3 +1,12 @@
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 
 .comment-button {
     left: 757px;
@@ -17,4 +26,14 @@
     text-decoration: none;
     border-radius: 50%;
     border: none;
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.25);
+
+    animation-name: float;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /*position: relative;*/
+    --bubble-duration: 4s;
+    animation-duration: var(--bubble-duration);
+    /*--bubble-delay: 4s;*/
+    /*animation-delay: var(--bubble-delay);*/
 }

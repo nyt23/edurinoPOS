@@ -12,10 +12,10 @@ import Logo from "../../Media/Pictures/Logo/Logo.jsx";
 import Bg from '../../Media/Pictures/PicMenu/Bg/Bg.jsx';
 // blueBanner
 import BlueBanner from "../../Media/Pictures/PicMenu/BlueBanner/BlueBanner.jsx";
-import Children from "../../Media/Pictures/PicMenu/DecoElements/Children/Children.jsx";
-import Star from "../../Media/Pictures/PicMenu/DecoElements/Star/Star.jsx";
-import Figurine from "../../Media/Pictures/PicMenu/DecoElements/Figurine/Figurine.jsx";
-import ABC from "../../Media/Pictures/PicMenu/DecoElements/ABC/ABC.jsx";
+import Children from "../../Media/Elements/DecoElements/Children/Children.jsx";
+import Star from "../../Media/Elements/DecoElements/Star/Star.jsx";
+import Figurine from "../../Media/Elements/DecoElements/Figurine/Figurine.jsx";
+import ABC from "../../Media/Elements/DecoElements/ABC/ABC.jsx";
 import {
     AnimatedBlueCommentBg, AnimatedBlueCommentButton,
     AnimatedBlueSecureBg, AnimatedBlueSecureButton,
@@ -30,9 +30,9 @@ import {
     AnimatedPurpleGameButton,
     AnimatedPurpleUpdateBg, AnimatedPurpleUpdateButton
 } from "./BubbleAnimation/BubbleAnimation.jsx";
-import Dot from "../../Media/Pictures/PicMenu/DecoElements/Dot/Dot.jsx";
-import Rocket from "../../Media/Pictures/PicMenu/DecoElements/Rocket/Rocket.jsx";
-import Symbol from "../../Media/Pictures/PicMenu/DecoElements/Symbol/Symbol.jsx";
+import Dot from "../../Media/Elements/DecoElements/Dot/Dot.jsx";
+import Rocket from "../../Media/Elements/DecoElements/Rocket/Rocket.jsx";
+import Symbol from "../../Media/Elements/DecoElements/Symbol/Symbol.jsx";
 
 
 
@@ -96,24 +96,25 @@ const Menu = () => {
                         Get Your Edurino Insights
                     </p>
                 </div>
-                <div className={'circle-options'}>
-                    <div>
-                        <AnimatedOrangeDiscountBg/>
+                <div>
+                    <div className={'bubbles'}>
+                        {/*<AnimatedOrangeDiscountBg/>*/}
                         <AnimatedOrangeDiscountButton/>
-                        <AnimatedOrangeHelpBg />
+                        {/*<AnimatedOrangeHelpBg />*/}
                         <AnimatedOrangeHelpButton />
-                        <AnimatedOrangeInteractiveBg />
+                        {/*<AnimatedOrangeInteractiveBg />*/}
                         <AnimatedOrangeInteractiveButton />
-                        <AnimatedBlueCommentBg />
+                        {/*<AnimatedBlueCommentBg />*/}
                         <AnimatedBlueCommentButton />
-                        <AnimatedBlueSecureBg />
+                        {/*<AnimatedBlueSecureBg />*/}
                         <AnimatedBlueSecureButton />
-                        <AnimatedPurpleBeginBg />
+                        {/*<AnimatedPurpleBeginBg />*/}
                         <AnimatedPurpleBeginButton />
-                        <AnimatedPurpleGameBg />
+                        {/*<AnimatedPurpleGameBg />*/}
                         <AnimatedPurpleGameButton />
-                        <AnimatedPurpleUpdateBg />
+                        {/*<AnimatedPurpleUpdateBg />*/}
                         <AnimatedPurpleUpdateButton />
+                    </div>
                         <Children/>
                         <Star/>
                         <Figurine/>
@@ -121,7 +122,6 @@ const Menu = () => {
                         <Dot />
                         <Rocket />
                         <Symbol />
-                    </div>
                 </div>
             </div>
         </div>
