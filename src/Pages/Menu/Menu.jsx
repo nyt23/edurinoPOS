@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Howl } from 'howler';
 import bubbleRiseSound from "../../assets/Sound/bubbleRiseSound.mp3";
 
@@ -38,18 +38,41 @@ import Symbol from "../../Media/Pictures/PicMenu/DecoElements/Symbol/Symbol.jsx"
 
 
 const Menu = () => {
+    const [soundInitiated, setSoundInitiated] = useState(false);
     useEffect(() => {
         const sound = new Howl({
             src: bubbleRiseSound,
             volume: 1,
         });
-        // sound plays with 0.2s delay
-        const timer = setTimeout(() => {
-            sound.play();
-        }, 200);
 
-        return () => clearTimeout(timer);
-    }, [])
+        const playSound = () => {
+            if (!soundInitiated) {
+                // sound plays with 0.2s delay
+                const timer = setTimeout(() => {
+                    sound.play();
+                }, 200);
+                setSoundInitiated(true);
+                return () => clearTimeout(timer);
+            }
+        }
+
+        // Adding event listeners for user interaction
+        window.addEventListener('click', playSound);
+        window.addEventListener('touchstart', playSound);
+
+        // Cleanup to remove event listeners
+        return () => {
+            window.removeEventListener('click', playSound);
+            window.removeEventListener('touchstart', playSound);
+        };
+
+        // // sound plays with 0.2s delay
+        // const timer = setTimeout(() => {
+        //     sound.play();
+        // }, 200);
+        //
+        // return () => clearTimeout(timer);
+    }, [soundInitiated])
 
     return (
         <div>
