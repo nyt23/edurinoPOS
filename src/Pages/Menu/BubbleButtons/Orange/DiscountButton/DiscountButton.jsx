@@ -7,11 +7,17 @@ const DiscountButton = () => {
     const [location, setLocation] = useLocation();
     function handleClick () {
         console.log('Feedback + 20% Gutschein clicked');
-        setLocation('/menu/discount');
+        const button = document.querySelector('.discount-button');
+        button.classList.add('discount-button-grow');
+        setTimeout(() => {
+            setLocation('/menu/discount');
+        }, 250);
     }
 
     return (
-        <button className={'discount-button'} onClick={handleClick}>{'Feedback'}<br/>{'+'}<br/>{'20%'}<br/>{'Gutschein'}</button>
+        <button className={'discount-button'} onClick={handleClick}>
+            <span>{'Feedback'}<br/>{'+'}<br/>{'20%'}<br/>{'Gutschein'}</span>
+        </button>
     )
 }
 

@@ -9,7 +9,7 @@ import './Menu.css'
 import Logo from "../../Media/Pictures/Logo/Logo.jsx";
 
 // bg
-import Bg from '../../Media/Pictures/PicMenu/Bg/Bg.jsx';
+import Bg from './Bg/Bg.jsx';
 // blueBanner
 import BlueBanner from "../../Media/Pictures/PicMenu/BlueBanner/BlueBanner.jsx";
 import Children from "../../Media/Elements/DecoElements/Children/Children.jsx";

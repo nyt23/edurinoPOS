@@ -3,10 +3,19 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
 }
 
+
+@keyframes bubbleGrowComment {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(15);
+    }
+}
 
 .comment-button {
     left: 757px;
@@ -36,4 +45,14 @@
     animation-duration: var(--bubble-duration);
     /*--bubble-delay: 4s;*/
     /*animation-delay: var(--bubble-delay);*/
+}
+
+.comment-button-grow {
+    animation: bubbleGrowComment 1s forwards;
+    z-index: 10;
+}
+
+.comment-button-grow span {
+    display: none;
+    /*transform: scale(0.1)*/
 }

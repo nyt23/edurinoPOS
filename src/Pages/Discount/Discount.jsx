@@ -1,9 +1,8 @@
 
 import './Discount.css';
 import { useLocation } from "wouter";
-import Bg from "../../Media/Pictures/PicMenu/Bg/Bg.jsx";
 import LogoSub from "../../Media/Pictures/LogoSub/LogoSub.jsx";
-import OrangePageBg from "../../Media/Pictures/OrangePageBg/OrangePageBg.jsx";
+import OrangePageBg from "../../Media/Pictures/PageBg/OrangePageBg/OrangePageBg.jsx";
 import BackArrowOrange from "../../Media/Elements/BackArrow/BackArrowOrange/BackArrowOrange.jsx";
 
 
@@ -17,11 +16,15 @@ const Discount = () => {
 
     return (
         <div>
-            <LogoSub />
-            <Bg />
-            <OrangePageBg />
-            <BackArrowOrange onClick={handleGoBack} />
+            <div className={'discount-page'}></div>
+            <div>
+                <LogoSub/>
+                {/*<Bg />*/}
+                <OrangePageBg/>
+                <BackArrowOrange onClick={handleGoBack}/>
+            </div>
         </div>
+
 
     );
 }

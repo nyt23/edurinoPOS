@@ -6,12 +6,18 @@ const BeginButton = () => {
     const [, setLocation] = useLocation();
     function handleClick () {
         console.log('Begin clicked');
-        setLocation('/menu/begin');
+        const button = document.querySelector('.begin-button');
+        button.classList.add('begin-button-grow');
+        setTimeout(() => {
+            setLocation('/menu/begin');
+        }, 300);
     }
 
     return (
         <div>
-            <button className={'begin-button'} onClick={handleClick}>{'Zeigen'}<br/>{'Sie mir,'}<br/>{'wie ich'}<br/>{'beginne'}</button>
+            <button className={'begin-button'} onClick={handleClick}>
+                <span>{'Zeigen'}<br/>{'Sie mir,'}<br/>{'wie ich'}<br/>{'beginne'}</span>
+            </button>
         </div>
     );
 }

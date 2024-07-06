@@ -1,4 +1,15 @@
 
+@keyframes bubbleGrowDiscount {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(5);
+    }
+}
+
+
+
 .discount-button {
     left: 46px;
     top: 618px;
@@ -25,4 +36,15 @@
     animation-iteration-count: infinite;
     --bubble-duration: 5s;
     animation-duration: var(--bubble-duration);
+}
+
+.discount-button-grow {
+    animation: bubbleGrowDiscount 1s forwards;
+    z-index: 10;
+    transform-origin: left top;
+}
+
+.discount-button-grow span {
+    display: none;
+    /*transform: scale(0.1)*/
 }

@@ -1,4 +1,15 @@
 
+@keyframes bubbleGrowBegin {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(40);
+    }
+}
+
+
+
 .begin-button {
     left: 404px;
     top: 1053px;
@@ -23,6 +34,16 @@
     animation-name: float;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    --bubble-duration: 6s;
+    --bubble-duration: 1.5s;
     animation-duration: var(--bubble-duration);
+}
+
+.begin-button-grow {
+    animation: bubbleGrowDiscount 1s forwards;
+    z-index: 10;
+}
+
+.begin-button-grow span {
+    display: none;
+    /*transform: scale(0.1)*/
 }

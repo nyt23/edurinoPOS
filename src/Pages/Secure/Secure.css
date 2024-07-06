@@ -1,9 +1,8 @@
 
-.discount-page {
+.secure-page {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: #FEF7EE;
     z-index: -3;
 }
-
