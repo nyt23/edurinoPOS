@@ -10,7 +10,7 @@ const BeginButton = () => {
         button.classList.add('begin-button-grow');
         setTimeout(() => {
             setLocation('/menu/begin');
-        }, 300);
+        }, 150);
     }
 
     return (

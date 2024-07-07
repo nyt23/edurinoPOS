@@ -10,8 +10,8 @@ const DiscountButton = () => {
         const button = document.querySelector('.discount-button');
         button.classList.add('discount-button-grow');
         setTimeout(() => {
-            setLocation('/menu/discount');
-        }, 250);
+            setLocation('/menu/feedback');
+        }, 150);
     }
 
     return (

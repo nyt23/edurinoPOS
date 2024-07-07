@@ -1,0 +1,72 @@
+
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+.feedback-page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #FEF7EE;
+    z-index: -3;
+}
+
+.feedback-headline {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    text-align: right;
+    color: #FEF7EE;
+    position: absolute;
+    top: 418px;
+    left: 450px;
+    font-weight: 600;
+}
+
+.feedback-sticker-title {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 38px;
+    color: #FEF7EE;
+    position: absolute;
+    left: 105px;
+    top: 620px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.feedback-shape-line {
+    left: -30px;
+    top: 610px;
+    position: absolute;
+    z-index: -1;
+}
+
+.white-sticker1 {
+    left: 495px;
+    top: 821px;
+    position: absolute;
+}
+
+.white-sticker2 {
+    left: 495px;
+    top: 1134px;
+    position: absolute;
+}
+
+.white-sticker3 {
+    left: 495px;
+    top: 1434px;
+    position: absolute;
+}
+
+.purple-element-feedback {
+    left: 336.78px;
+    top: 359px;
+    width: 285.39px;
+    height: 280.91px;
+    position: absolute;
+}

@@ -10,7 +10,7 @@ const CommentButton = () => {
         button.classList.add('comment-button-grow');
         setTimeout(() => {
             setLocation('/menu/comment');
-        }, 300);
+        }, 150);
     }
 
     return (

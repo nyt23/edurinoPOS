@@ -39,7 +39,7 @@
 }
 
 .begin-button-grow {
-    animation: bubbleGrowDiscount 1s forwards;
+    animation: bubbleGrowDiscount 0.5s forwards;
     z-index: 10;
 }
 

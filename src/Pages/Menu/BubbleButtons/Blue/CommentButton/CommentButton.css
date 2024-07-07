@@ -48,7 +48,7 @@
 }
 
 .comment-button-grow {
-    animation: bubbleGrowComment 1s forwards;
+    animation: bubbleGrowComment 0.5s forwards;
     z-index: 10;
 }
 

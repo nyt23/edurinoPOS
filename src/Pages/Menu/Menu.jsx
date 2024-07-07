@@ -17,18 +17,14 @@ import Star from "../../Media/Elements/DecoElements/Star/Star.jsx";
 import Figurine from "../../Media/Elements/DecoElements/Figurine/Figurine.jsx";
 import ABC from "../../Media/Elements/DecoElements/ABC/ABC.jsx";
 import {
-    AnimatedBlueCommentBg, AnimatedBlueCommentButton,
-    AnimatedBlueSecureBg, AnimatedBlueSecureButton,
-    AnimatedOrangeDiscountBg, AnimatedOrangeDiscountButton,
-    AnimatedOrangeHelpBg,
+    AnimatedBlueCommentButton,
+    AnimatedBlueSecureButton,
+    AnimatedOrangeDiscountButton,
     AnimatedOrangeHelpButton,
-    AnimatedOrangeInteractiveBg,
     AnimatedOrangeInteractiveButton,
-    AnimatedPurpleBeginBg,
     AnimatedPurpleBeginButton,
-    AnimatedPurpleGameBg,
     AnimatedPurpleGameButton,
-    AnimatedPurpleUpdateBg, AnimatedPurpleUpdateButton
+    AnimatedPurpleUpdateButton
 } from "./BubbleAnimation/BubbleAnimation.jsx";
 import Dot from "../../Media/Elements/DecoElements/Dot/Dot.jsx";
 import Rocket from "../../Media/Elements/DecoElements/Rocket/Rocket.jsx";
@@ -98,21 +94,13 @@ const Menu = () => {
                 </div>
                 <div>
                     <div className={'bubbles'}>
-                        {/*<AnimatedOrangeDiscountBg/>*/}
                         <AnimatedOrangeDiscountButton/>
-                        {/*<AnimatedOrangeHelpBg />*/}
                         <AnimatedOrangeHelpButton />
-                        {/*<AnimatedOrangeInteractiveBg />*/}
                         <AnimatedOrangeInteractiveButton />
-                        {/*<AnimatedBlueCommentBg />*/}
                         <AnimatedBlueCommentButton />
-                        {/*<AnimatedBlueSecureBg />*/}
                         <AnimatedBlueSecureButton />
-                        {/*<AnimatedPurpleBeginBg />*/}
                         <AnimatedPurpleBeginButton />
-                        {/*<AnimatedPurpleGameBg />*/}
                         <AnimatedPurpleGameButton />
-                        {/*<AnimatedPurpleUpdateBg />*/}
                         <AnimatedPurpleUpdateButton />
                     </div>
                         <Children/>

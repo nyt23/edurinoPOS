@@ -1,5 +1,5 @@
 
-import bgMenu from '../../../assets/svgs/bgMenu.png';
+import bgMenu from '../../../assets/pngs/bgMenu.png';
 import './Bg.css';
 
 const Bg = () => {
