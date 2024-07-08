@@ -70,3 +70,36 @@
     height: 280.91px;
     position: absolute;
 }
+
+#not-a-fan {
+    font-family: Quicksand, sans-serif;
+    font-size: 45px;
+    font-weight: 550;
+    color: #8C52FE;
+    position: absolute;
+    left: 750px;
+    top: 880px;
+    z-index: 1;
+}
+
+#just-so-so {
+    font-family: Quicksand, sans-serif;
+    font-size: 45px;
+    font-weight: 550;
+    color: #8C52FE;
+    position: absolute;
+    left: 750px;
+    top: 1190px;
+    z-index: 1;
+}
+
+#i-love-it {
+    font-family: Quicksand, sans-serif;
+    font-size: 45px;
+    font-weight: 550;
+    color: #8C52FE;
+    position: absolute;
+    left: 750px;
+    top: 1490px;
+    z-index: 1;
+}

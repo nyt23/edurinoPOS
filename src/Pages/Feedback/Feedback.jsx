@@ -37,6 +37,13 @@ const Feedback = () => {
                 <ILoveIt />
                 <PurpleElementFeedback />
 
+                <div>
+                    <p id={'not-a-fan'}>Not a fan.</p>
+                    <p id={'just-so-so'}>Just so so...</p>
+                    <p id={'i-love-it'}>I love it!</p>
+
+                </div>
+
                 <div className={'white-sticker1'}>
                     <WhiteSticker />
                 </div>
