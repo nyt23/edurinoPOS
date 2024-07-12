@@ -1,10 +1,11 @@
 
-import './Children.css'
+import './Children.css';
+import PropTypes from "prop-types";
 
-const Children = () => {
+const Children = ( {className} ) => {
     return (
         <div>
-            <svg className={'children'} width="246" height="246" viewBox="0 0 246 246" fill="none" xmlns="http://www.w3.org/2000/svg"
+            <svg className={className} width="246" height="246" viewBox="0 0 246 246" fill="none" xmlns="http://www.w3.org/2000/svg"
                  xmlnsXlink="http://www.w3.org/1999/xlink">
                 <circle cx="123" cy="123" r="118" fill="url(#pattern0_668_90)"/>
                 <circle cx="123" cy="123" r="118" fill="#3FBFF0" fillOpacity="0.08"/>
@@ -20,5 +21,10 @@ const Children = () => {
         </div>
     );
 }
+
+Children.propTypes = {
+    className: PropTypes.string
+}
+
 
 export default Children;

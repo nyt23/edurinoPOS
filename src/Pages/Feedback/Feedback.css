@@ -63,6 +63,27 @@
     position: absolute;
 }
 
+.white-sticker1-transparent {
+    left: 495px;
+    top: 821px;
+    position: absolute;
+    z-index: 1;
+}
+
+.white-sticker2-transparent {
+    left: 495px;
+    top: 1134px;
+    position: absolute;
+    z-index: 1;
+}
+
+.white-sticker3-transparent {
+    left: 495px;
+    top: 1434px;
+    position: absolute;
+    z-index: 1;
+}
+
 .purple-element-feedback {
     left: 336.78px;
     top: 359px;

@@ -103,7 +103,7 @@ const Menu = () => {
                         <AnimatedPurpleGameButton />
                         <AnimatedPurpleUpdateButton />
                     </div>
-                        <Children/>
+                        <Children className={'children-menu'}/>
                         <Star/>
                         <Figurine/>
                         <ABC/>

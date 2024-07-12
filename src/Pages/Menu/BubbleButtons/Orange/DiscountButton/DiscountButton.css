@@ -4,7 +4,7 @@
         transform: scale(1);
     }
     to {
-        transform: scale(5);
+        transform: scale(4);
     }
 }
 
@@ -41,7 +41,7 @@
 .discount-button-grow {
     animation: bubbleGrowDiscount 0.5s forwards;
     z-index: 10;
-    transform-origin: left top;
+    transform-origin: center;
 }
 
 .discount-button-grow span {

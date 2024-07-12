@@ -1,0 +1,53 @@
+
+.discount-page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #FEF7EE;
+    z-index: -3;
+}
+
+.discount-headline {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    text-align: right;
+    color: #FEF7EE;
+    position: absolute;
+    top: 418px;
+    left: 450px;
+    font-weight: 600;
+}
+
+.discount-sticker-title {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 38px;
+    color: #FEF7EE;
+    position: absolute;
+    left: 105px;
+    top: 620px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.discount-scanQR {
+    left: 104px;
+    top: 931px;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #FEF7EE;
+}
+
+.purple-20 {
+    color: #8C52FE;
+    font-weight: 600;
+}
+
+.children-discount {
+    left: 150px;
+    top: 220px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+}
