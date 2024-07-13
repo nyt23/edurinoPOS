@@ -1,8 +1,9 @@
-import BackArrowPurple from "../../Media/Elements/BackArrow/BackArrowPurple/BackArrowPurple.jsx";
-import LogoSub from "../../Media/Pictures/LogoSub/LogoSub.jsx";
-import PurplePageBg from "../../Media/Pictures/PageBg/PurplePageBg/PurplePageBg.jsx";
+
 import {useLocation} from "wouter";
 
+import LogoSub from "../../Media/Pictures/LogoSub/LogoSub.jsx";
+import BluePageBg from "../../Media/Pictures/PageBg/BluePageBg/BluePageBg.jsx";
+import BackArrowBlue from "../../Media/Elements/BackArrow/BackArrowBlue/BackArrowBlue.jsx";
 
 const Secure = () => {
     const [, setLocation] = useLocation();
@@ -16,8 +17,8 @@ const Secure = () => {
             <div className={'secure-page'}></div>
             <div>
                 <LogoSub/>
-                <PurplePageBg/>
-                <BackArrowPurple onClick={handleGoBack}/>
+                <BluePageBg/>
+                <BackArrowBlue onClick={handleGoBack}/>
             </div>
         </div>
     );

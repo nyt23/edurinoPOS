@@ -1,8 +1,117 @@
 
+@keyframes schrinkAndFade {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+
+.whole-page-animation {
+    animation: schrinkAndFade 0.2s forwards;
+    transform-origin: 544px 1193px;
+}
+
 .begin-page {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: #FEF7EE;
     z-index: -3;
+}
+
+
+.first-point {
+    left: 880px;
+    top: 381.22px;
+    position: absolute;
+}
+
+.third-point {
+    left: 880px;
+    top: 1169.22px;
+    position: absolute;
+}
+
+.number1 {
+    left: 930px;
+    top: 170px;
+    position: absolute;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 200px;
+    font-weight: 500;
+    color: #FEF7EE;
+}
+
+.number2 {
+    left: 40px;
+    top: 430px;
+    position: absolute;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 200px;
+    font-weight: 500;
+    color: #FEF7EE;
+}
+
+.number3 {
+    left: 930px;
+    top: 950px;
+    position: absolute;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 200px;
+    font-weight: 500;
+    color: #FEF7EE;
+}
+
+.number1-content {
+    left: 290px;
+    top: 430px;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #FEF7EE;
+    font-weight: 600;
+    text-align: right;
+}
+
+.number2-content {
+    left:93px;
+    top: 850px;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #FEF7EE;
+    font-weight: 600;
+}
+
+.number3-content {
+    left: 515px;
+    top: 1350px;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #FEF7EE;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.title-button {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: none;
+    background-color: #A87BFF;
+    color: #FEF7EE;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 53px;
+    justify-content: center;
+    line-height: 55px;
+    left: 404px;
+    top: 1053px;
+    position: absolute;
 }

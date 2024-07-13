@@ -1,0 +1,7 @@
+
+.line {
+    left: 0;
+    top: 710px;
+    position: absolute;
+    z-index: -1;
+}

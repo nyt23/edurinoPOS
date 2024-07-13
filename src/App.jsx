@@ -6,6 +6,7 @@ import Menu from "./Pages/Menu/Menu.jsx";
 import Discount from "./Pages/Feedback/Discount/Discount.jsx";
 import Begin from "./Pages/Begin/Begin.jsx";
 import Feedback from "./Pages/Feedback/Feedback.jsx";
+import Secure from "./Pages/Secure/Secure.jsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Route path={'/menu/feedback'} component={Feedback}/>
                 <Route path={'/menu/begin'} component={Begin} />
                 <Route path={'/menu/feedback/discount'} component={Discount}/>
+                <Route path={'/menu/secure'} component={Secure}/>
             </Switch>
         </div>
     )
