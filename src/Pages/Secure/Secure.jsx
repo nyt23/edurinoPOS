@@ -6,6 +6,7 @@ import LogoSub from "../../Media/Pictures/LogoSub/LogoSub.jsx";
 import BluePageBg from "../../Media/Pictures/PageBg/BluePageBg/BluePageBg.jsx";
 import LineSecurePage from "../../Media/Pictures/PicSecure/LineSecurePage/LineSecurePage.jsx";
 import Phone from "../../Media/Pictures/PicSecure/Phone/Phone.jsx";
+import OrangeStar from "../../Media/Elements/OrangeStar/OrangeStar.jsx";
 
 
 const Secure = () => {
@@ -28,6 +29,8 @@ const Secure = () => {
                 <BluePageBg/>
                 <LineSecurePage />
                 <Phone />
+                <OrangeStar className={'orange-star1'}/>
+                <OrangeStar className={'orange-star2'} />
             </div>
 
             <div>

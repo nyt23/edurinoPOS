@@ -134,3 +134,16 @@
     bottom: 5px;
     position: relative
 }
+
+.orange-star1 {
+    left: 769px;
+    top: 488px;
+    position: relative;
+}
+
+.orange-star2 {
+    left: 0.26px;
+    top: 700px;
+    transform: rotate(-94.917deg);
+    position: absolute;
+}
