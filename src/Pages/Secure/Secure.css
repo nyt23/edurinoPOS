@@ -15,8 +15,8 @@
 .secure-headline1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 100px;
-    color: #FEF7EE;
-    font-weight: 600;
+    color: rgba(254, 247, 238, 0.85);
+    font-weight: 700;
     left: 65px;
     top: 210px;
     position: absolute;
@@ -25,8 +25,8 @@
 .secure-headline2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 100px;
-    color: #FEF7EE;
-    font-weight: 600;
+    color: rgba(254, 247, 238, 0.85);
+    font-weight: 700;
     left: 190px;
     top: 310px;
     position: absolute;
@@ -57,7 +57,7 @@
 
 .secure-headline3 {
     left: 405px;
-    top: 902px;
+    top: 850px;
     position: absolute;
     font-family: 'Quicksand', sans-serif;
     font-size: 70px;
@@ -70,7 +70,7 @@
     width: 480px;
     height: 201px;
     left: 600px;
-    top: 1260px;
+    top: 1220px;
     position: absolute;
     border-radius: 40px 0 0 40px;
     background: rgba(253, 247, 240, 0.95);
@@ -93,7 +93,7 @@
     width: 630px;
     height: 201px;
     left: 450px;
-    top: 1500px;
+    top: 1465px;
     position: absolute;
     border-radius: 40px 0 0 40px;
     background: rgba(253, 247, 240, 0.95);
@@ -116,7 +116,7 @@
     width: 950px;
     height: 152px;
     left: 130px;
-    top: 1740px;
+    top: 1710px;
     position: absolute;
     border-radius: 40px 0 0 40px;
     background: rgba(253, 247, 240, 0.95);
