@@ -4,7 +4,6 @@ import { useLocation } from "wouter";
 import {useState} from "react";
 
 import PurplePageBg from "../../Media/Pictures/PageBg/PurplePageBg/PurplePageBg.jsx";
-import BackArrowPurple from "../../Media/Elements/BackArrow/BackArrowPurple/BackArrowPurple.jsx";
 import LogoSub from "../../Media/Pictures/LogoSub/LogoSub.jsx";
 import FirstBlue from "../../Media/Pictures/PicBegin/Elements/BlueElement/FirstBlue.jsx";
 import SecondOrange from "../../Media/Pictures/PicBegin/Elements/OrangeElement/SecondOrange.jsx";
@@ -34,7 +33,6 @@ const Begin = () => {
             <div>
                 <PurplePageBg />
                 <LogoSub />
-                {/*<BackArrowPurple onClick={handleGoBack} />*/}
                 <FirstBlue className={'first-point'}/>
                 <FirstBlue className={'third-point'}/>
                 <SecondOrange />

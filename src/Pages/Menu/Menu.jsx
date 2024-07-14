@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Howl } from 'howler';
 import bubbleRiseSound from "../../assets/Sound/bubbleRiseSound.mp3";
 
-
 import './Menu.css'
 
 // logo
@@ -35,7 +34,6 @@ import Symbol from "../../Media/Elements/DecoElements/Symbol/Symbol.jsx";
 
 
 const Menu = () => {
-
     useEffect(() => {
         const sound = new Howl({
             src: bubbleRiseSound,

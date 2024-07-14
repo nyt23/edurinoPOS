@@ -1,4 +1,8 @@
 
+.whole-secure-page-animation {
+    animation: schrinkAndFade 0.3s forwards;
+    transform-origin: 547.4px 733.5px;
+}
 
 .secure-page {
     position: absolute;
@@ -6,4 +10,127 @@
     width: 100%;
     background-color: #FEF7EE;
     z-index: -3;
+}
+
+.secure-headline1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    color: #FEF7EE;
+    font-weight: 600;
+    left: 65px;
+    top: 210px;
+    position: absolute;
+}
+
+.secure-headline2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    color: #FEF7EE;
+    font-weight: 600;
+    left: 190px;
+    top: 310px;
+    position: absolute;
+}
+
+.secure-headline2 .kinder {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 130px;
+    font-weight: normal;
+}
+
+.secure-title-button {
+    left: 396px;
+    top: 582px;
+    text-align: center;
+    width: 303px;
+    height: 303px;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    background-color: #70D7FF;
+    color: #FEF7EE;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: normal;
+}
+
+.secure-headline3 {
+    left: 405px;
+    top: 902px;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #FEF7EE;
+    text-align: right;
+}
+
+.point1 {
+    width: 480px;
+    height: 201px;
+    left: 600px;
+    top: 1260px;
+    position: absolute;
+    border-radius: 40px 0 0 40px;
+    background: rgba(253, 247, 240, 0.95);
+    font-family: Quicksand, sans-serif;
+    color: #3FBFF0;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 133.333% */
+}
+
+.text1 {
+    text-align: right;
+    right: 70px;
+    bottom: 5px;
+    position: relative
+}
+
+.point2 {
+    width: 630px;
+    height: 201px;
+    left: 450px;
+    top: 1500px;
+    position: absolute;
+    border-radius: 40px 0 0 40px;
+    background: rgba(253, 247, 240, 0.95);
+    font-family: Quicksand, sans-serif;
+    color: #3FBFF0;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.text2 {
+    text-align: right;
+    right: 70px;
+    bottom: 5px;
+    position: relative
+}
+
+.point3 {
+    width: 950px;
+    height: 152px;
+    left: 130px;
+    top: 1740px;
+    position: absolute;
+    border-radius: 40px 0 0 40px;
+    background: rgba(253, 247, 240, 0.95);
+    font-family: Quicksand, sans-serif;
+    color: #3FBFF0;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.text3 {
+    text-align: right;
+    right: 70px;
+    bottom: 5px;
+    position: relative
 }
