@@ -1,4 +1,10 @@
 
+.whole-discount-page-animation {
+    animation: schrinkAndFade 0.3s forwards;
+    transform-origin: 168.5px 740.5px;
+}
+
+
 .discount-page {
     position: absolute;
     height: 100%;
@@ -50,4 +56,20 @@
     position: absolute;
     width: 280px;
     height: 280px;
+}
+
+.discount-title-button {
+    width: 245px;
+    height: 245px;
+    position: absolute;
+    left: 46px;
+    top: 618px;
+    background-color: #FEA937;
+    color: #FEF7EE;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    border-radius: 50%;
 }

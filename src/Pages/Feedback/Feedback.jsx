@@ -2,7 +2,6 @@
 import './Feedback.css';
 import LogoSub from "../../Media/Pictures/LogoSub/LogoSub.jsx";
 import OrangePageBg from "../../Media/Pictures/PageBg/OrangePageBg/OrangePageBg.jsx";
-import FeedbackSticker from "../../Media/Pictures/PicFeedback/FeedbackSticker/FeedbackSticker.jsx";
 import ShapeLine from "../../Media/Elements/ShapeLine/ShapeLine.jsx";
 import GirlWithFigurine from "../../Media/Pictures/PicFeedback/GirlWithFigurine/GirlWithFigurine.jsx";
 import WhiteSticker from "../../Media/Pictures/PicFeedback/WhiteSticker/WhiteSticker/WhiteSticker.jsx";
@@ -15,6 +14,10 @@ import TransparentWhiteSticker
 
 
 const Feedback = () => {
+    const handleClick = () => {
+        alert('Please give your rating!')
+    }
+
     return (
         <div>
             <div className={'feedback-page'}></div>
@@ -22,7 +25,6 @@ const Feedback = () => {
                 <LogoSub/>
                 {/*<Bg />*/}
                 <OrangePageBg/>
-                <FeedbackSticker/>
                 <GirlWithFigurine/>
                 <NotAFan/>
                 <JustSoSo/>
@@ -59,12 +61,15 @@ const Feedback = () => {
                 <div className={'feedback-shape-line'}>
                     <ShapeLine/>
                 </div>
-
             </div>
 
+
+            <div>
+                <button className={'feedback-title-button'} onClick={handleClick}>Feedback<br/>+<br/>20 %<br/>Gutschein
+                </button>
+            </div>
             <div>
                 <p className={'feedback-headline'}>Was denken Sie<br/>über Edurino?</p>
-                <p className={'feedback-sticker-title'}>Feedback<br/>+<br/>20 %<br/>Gutschein</p>
             </div>
         </div>
 

@@ -11,8 +11,8 @@
 }
 
 
-.whole-page-animation {
-    animation: schrinkAndFade 0.2s forwards;
+.whole-begin-page-animation {
+    animation: schrinkAndFade 0.3s forwards;
     transform-origin: 544px 1193px;
 }
 
@@ -100,7 +100,7 @@
 }
 
 
-.title-button {
+.begin-title-button {
     width: 280px;
     height: 280px;
     border-radius: 50%;

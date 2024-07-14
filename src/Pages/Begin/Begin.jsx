@@ -25,12 +25,11 @@ const Begin = () => {
         setTimeout(() => {
             setLocation('/menu');
             console.log('Go back to menu');
-        }, 200)
-
+        }, 300)
     }
 
     return (
-        <div className={`whole-page ${isClicked ? 'whole-page-animation' : ''}`}>
+        <div className={`whole-begin-page ${isClicked ? 'whole-begin-page-animation' : ''}`}>
             <div className={'begin-page'}></div>
             <div>
                 <PurplePageBg />
@@ -58,7 +57,7 @@ const Begin = () => {
             </div>
 
             <div>
-                <button className={'title-button'} onClick={handleGoBack} >Zeigen<br/>Sie mir,<br/>wie ich<br/>beginne</button>
+                <button className={'begin-title-button'} onClick={handleGoBack} >Zeigen<br/>Sie mir,<br/>wie ich<br/>beginne</button>
             </div>
         </div>
     );
