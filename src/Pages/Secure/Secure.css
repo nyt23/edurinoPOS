@@ -1,3 +1,17 @@
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.point1, .point2, .point3 {
+    opacity: 0;
+}
 
 .whole-secure-page-animation {
     animation: schrinkAndFade 0.3s forwards;
@@ -80,6 +94,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 60px; /* 133.333% */
+
+    animation: slideInFromRight 0.5s ease-out forwards;
+    animation-delay: 0.2s;
 }
 
 .text1 {
@@ -103,6 +120,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 60px;
+
+    animation: slideInFromRight 0.5s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .text2 {
@@ -126,6 +146,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 60px;
+
+    animation: slideInFromRight 0.5s ease-out forwards;
+    animation-delay: 0.9s;
 }
 
 .text3 {
