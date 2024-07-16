@@ -13,9 +13,15 @@ import IntroVideo from "../../Media/Videos/IntroVideo/IntroVideo.jsx";
 
 // background-layer
 import StarAndDots from "../../Media/Pictures/PicLetsExplore/StarAndDots/StarAndDots.jsx";
+import {useEffect} from "react";
 
 
 export default function LetsExplore () {
+    useEffect(() => {
+        localStorage.removeItem('clickedBubble');
+    }, [])
+
+
     return (
         <>
         <div>

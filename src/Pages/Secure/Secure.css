@@ -9,6 +9,19 @@
     }
 }
 
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
 .point1, .point2, .point3 {
     opacity: 0;
 }
@@ -50,6 +63,7 @@
     font-family: 'Caveat Brush', cursive;
     font-size: 130px;
     font-weight: normal;
+    color: #FEF7EE;
 }
 
 .secure-title-button {
@@ -67,6 +81,7 @@
     font-size: 45px;
     line-height: 50px;
     font-weight: normal;
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.25);
 }
 
 .secure-headline3 {
@@ -87,7 +102,7 @@
     top: 1220px;
     position: absolute;
     border-radius: 40px 0 0 40px;
-    background: rgba(253, 247, 240, 0.95);
+    background: rgba(253, 247, 240, 0.98);
     font-family: Quicksand, sans-serif;
     color: #3FBFF0;
     font-size: 45px;
@@ -113,7 +128,7 @@
     top: 1465px;
     position: absolute;
     border-radius: 40px 0 0 40px;
-    background: rgba(253, 247, 240, 0.95);
+    background: rgba(253, 247, 240, 0.98);
     font-family: Quicksand, sans-serif;
     color: #3FBFF0;
     font-size: 45px;
@@ -139,7 +154,7 @@
     top: 1710px;
     position: absolute;
     border-radius: 40px 0 0 40px;
-    background: rgba(253, 247, 240, 0.95);
+    background: rgba(253, 247, 240, 0.98);
     font-family: Quicksand, sans-serif;
     color: #3FBFF0;
     font-size: 45px;

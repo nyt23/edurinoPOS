@@ -38,6 +38,35 @@
     animation-duration: var(--bubble-duration);
 }
 
+/*.discount-button-clicked {*/
+/*    left: 46px;*/
+/*    top: 618px;*/
+/*    position: absolute;*/
+/*    width: 245px;*/
+/*    height: 245px;*/
+/*    text-align: center;*/
+/*    font-family: "Caveat Brush", cursive;*/
+/*    font-size: 40px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 40px;*/
+/*    letter-spacing: 1px;*/
+/*    color: #FEF7EE;*/
+/*    text-decoration: none;*/
+/*    border-radius: 50%;*/
+/*    border: none;*/
+/*    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.25);*/
+/*    transition: background-color 0s 3s; !* Apply the grey color after a 3s delay *!*/
+/*    background: linear-gradient(to right, #A6A6A6 17.74%, #B9AB99 52.02%, #FEEACE 129.59%);*/
+/*;*/
+/*    !*animation-name: float;*!*/
+/*    !*animation-timing-function: ease-in-out;*!*/
+/*    !*animation-iteration-count: infinite;*!*/
+/*    !*--bubble-duration: 5s;*!*/
+/*    !*animation-duration: var(--bubble-duration);*!*/
+/*}*/
+
+
 .discount-button-grow {
     animation: bubbleGrowDiscount 0.5s forwards;
     z-index: 10;

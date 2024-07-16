@@ -34,6 +34,7 @@ import Symbol from "../../Media/Elements/DecoElements/Symbol/Symbol.jsx";
 
 
 const Menu = () => {
+
     useEffect(() => {
         const sound = new Howl({
             src: bubbleRiseSound,
@@ -107,9 +108,10 @@ const Menu = () => {
                         Get Your Edurino Insights
                     </p>
                 </div>
+
                 <div>
                     <div className={'bubbles'}>
-                        <AnimatedOrangeDiscountButton/>
+                        <AnimatedOrangeDiscountButton />
                         <AnimatedOrangeHelpButton />
                         <AnimatedOrangeInteractiveButton />
                         <AnimatedBlueCommentButton />

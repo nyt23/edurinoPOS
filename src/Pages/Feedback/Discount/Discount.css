@@ -1,3 +1,15 @@
+@keyframes glowEffect {
+    0%, 100% {
+        color: #8C52FE; /* Original color */
+        transform: scale(1); /* Original size */
+    }
+    50% {
+        color: #ffffff; /* Brighter color for the bling effect */
+        transform: scale(1.1); /* Slightly larger scale for emphasis */
+    }
+
+}
+
 
 .whole-discount-page-animation {
     animation: schrinkAndFade 0.3s forwards;
@@ -20,8 +32,8 @@
     color: #FEF7EE;
     position: absolute;
     top: 418px;
-    left: 450px;
-    font-weight: 600;
+    left: 490px;
+    font-weight: 500;
 }
 
 .discount-sticker-title {
@@ -37,17 +49,20 @@
 
 .discount-scanQR {
     left: 104px;
-    top: 920px;
+    top: 870px;
     position: absolute;
     font-family: 'Quicksand', sans-serif;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 70px;
+    font-weight: 600;
     color: #FEF7EE;
+    line-height: 95px;
+    animation: slideInLeft 0.5s forwards;
 }
 
 .purple-20 {
     color: #8C52FE;
     font-weight: 600;
+    animation: glowEffect 2s ease-in-out 3;
 }
 
 .children-discount {
@@ -72,4 +87,5 @@
     line-height: 40px;
     border: none;
     border-radius: 50%;
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.25);
 }

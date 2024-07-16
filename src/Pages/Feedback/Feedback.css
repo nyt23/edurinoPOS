@@ -1,4 +1,51 @@
 
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100vw);
+        opacity: 0;
+
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100vw);
+        opacity: 0;
+
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
 
 @font-face {
     font-family: 'Quicksand';
@@ -17,13 +64,14 @@
 
 .feedback-headline {
     font-family: 'Quicksand', sans-serif;
-    font-size: 70px;
+    font-size: 90px;
     text-align: right;
     color: #FEF7EE;
     position: absolute;
-    top: 418px;
-    left: 450px;
+    top: 300px;
+    left: 300px;
     font-weight: 600;
+    animation: slideInRight 0.5s forwards;
 }
 
 .feedback-sticker-title {
@@ -85,11 +133,12 @@
 }
 
 .purple-element-feedback {
-    left: 336.78px;
-    top: 359px;
+    left: 261.78px;
+    top: 322px;
     width: 285.39px;
     height: 280.91px;
     position: absolute;
+    animation: slideInLeft 0.5s forwards;
 }
 
 #not-a-fan {
