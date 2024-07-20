@@ -7,6 +7,7 @@ import Discount from "./Pages/Feedback/Discount/Discount.jsx";
 import Begin from "./Pages/Begin/Begin.jsx";
 import Feedback from "./Pages/Feedback/Feedback.jsx";
 import Secure from "./Pages/Secure/Secure.jsx";
+import Game from "./Pages/Game/Game.jsx";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path={'/menu/begin'} component={Begin} />
                 <Route path={'/menu/feedback/discount'} component={Discount}/>
                 <Route path={'/menu/secure'} component={Secure}/>
+                <Route path={'/menu/game/'} component={Game}/>
             </Switch>
         </div>
     )

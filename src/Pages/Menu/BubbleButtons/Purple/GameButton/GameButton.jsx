@@ -4,13 +4,21 @@ import { useLocation } from "wouter";
 
 const GameButton = () => {
     const [, setLocation] = useLocation();
+
     function handleClick() {
         console.log('Game clicked');
-        setLocation('/menu/game');
+        const button = document.querySelector('.game-button');
+        button.classList.add('game-button-grow');
+
+        setTimeout(() => {
+            setLocation('/menu/game');
+        }, 150);
     }
 
     return (
-        <button className={'game-button'} onClick={handleClick}>{'Spielbasierter'}<br/>{'Ansatz macht'}<br/>{'das Lernen zum'}<br/>{'Spaß'}</button>
+        <button className={'game-button'} onClick={handleClick}>
+            <span>{'Spielbasierter'}<br/>{'Ansatz macht'}<br/>{'das Lernen zum'}<br/>{'Spaß'}</span>
+        </button>
     );
 }
 

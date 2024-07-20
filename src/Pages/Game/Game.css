@@ -1,0 +1,32 @@
+
+
+.whole-game-page-animation {
+    animation: schrinkAndFade 0.3s forwards;
+    transform-origin: 350px 1670px;
+}
+
+.game-page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #FEF7EE;
+    z-index: -3;
+}
+
+.game-title-button {
+    width: 303px;
+    height: 303px;
+    border-radius: 50%;
+    border: none;
+    background-color: #A87BFF;
+    color: #FEF7EE;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+    justify-content: center;
+    line-height: 43px;
+    left: 215px;
+    top: 1560px;
+    position: absolute;
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}

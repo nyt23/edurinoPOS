@@ -9,7 +9,7 @@ import PurpleElementDiscount from "../../../Media/Pictures/PicDiscount/PurpleEle
 import ShapeLineDiscount from "../../../Media/Pictures/PicDiscount/ShapeLineDiscount/ShapeLineDiscount.jsx";
 import QRcode from "../../../Media/Pictures/PicDiscount/QRcode/QRcode.jsx";
 import DisplayDiscount from "../../../Media/Pictures/PicDiscount/DisplayDiscount/DisplayDiscount.jsx";
-import Children from "../../../Media/Elements/DecoElements/Children/Children.jsx";
+import Coupon from "../../../Media/Pictures/PicDiscount/Coupon/Coupon.jsx";
 
 
 
@@ -35,7 +35,7 @@ const Discount = () => {
                 <ShapeLineDiscount />
                 <QRcode />
                 <DisplayDiscount />
-                <Children className={'children-discount'}/>
+                <Coupon />
             </div>
 
             <div>

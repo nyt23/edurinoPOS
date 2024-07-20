@@ -1,3 +1,12 @@
+@keyframes bubbleGrowGame {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(4);
+    }
+}
+
 
 .game-button {
     left: 215px;
@@ -11,7 +20,7 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 43px;
     letter-spacing: 1px;
     color: #FEF7EE;
     text-decoration: none;
@@ -24,4 +33,15 @@
     animation-iteration-count: infinite;
     --bubble-duration: 5s;
     animation-duration: var(--bubble-duration);
+}
+
+
+.game-button-grow {
+    animation: bubbleGrowGame 0.5s forwards;
+    z-index: 10;
+    transform-origin: center;
+}
+
+.game-button-grow span {
+    display: none;
 }

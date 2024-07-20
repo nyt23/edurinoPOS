@@ -1,0 +1,24 @@
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(360deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+
+.coupon {
+    left: 150px;
+    top: 220px;
+    position: absolute;
+    opacity: 0;
+    animation: slideInFromLeft 0.5s forwards, rotate360 3s 0.5s forwards;
+    animation-delay: 0.6s;
+}

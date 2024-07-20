@@ -1,13 +1,12 @@
 @keyframes glowEffect {
     0%, 100% {
-        color: #8C52FE; /* Original color */
-        transform: scale(1); /* Original size */
+        color: #8C52FE;
+        transform: scale(1);
     }
     50% {
-        color: #ffffff; /* Brighter color for the bling effect */
-        transform: scale(1.1); /* Slightly larger scale for emphasis */
+        color: #ffffff;
+        transform: scale(1.1);
     }
-
 }
 
 
@@ -31,21 +30,11 @@
     text-align: right;
     color: #FEF7EE;
     position: absolute;
-    top: 418px;
+    top: 450px;
     left: 490px;
     font-weight: 500;
 }
 
-.discount-sticker-title {
-    font-family: 'Caveat Brush', cursive;
-    font-size: 38px;
-    color: #FEF7EE;
-    position: absolute;
-    left: 105px;
-    top: 620px;
-    text-align: center;
-    line-height: 40px;
-}
 
 .discount-scanQR {
     left: 104px;
@@ -65,13 +54,6 @@
     animation: glowEffect 2s ease-in-out 3;
 }
 
-.children-discount {
-    left: 150px;
-    top: 220px;
-    position: absolute;
-    width: 280px;
-    height: 280px;
-}
 
 .discount-title-button {
     width: 245px;

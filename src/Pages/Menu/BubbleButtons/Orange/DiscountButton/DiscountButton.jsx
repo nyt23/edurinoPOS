@@ -14,11 +14,11 @@ const DiscountButton = () => {
     //     return storedBubble || 'defaultBubble';
     // });
 
-    useEffect(() => {
-        if (!localStorage.getItem('clickedBubble')) {
-            localStorage.setItem('clickedBubble', 'defaultBubble');
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (!localStorage.getItem('clickedBubble')) {
+    //         localStorage.setItem('clickedBubble', 'defaultBubble');
+    //     }
+    // }, []);
 
     function handleClick () {
         console.log('Feedback + 20% Gutschein clicked');
@@ -41,7 +41,7 @@ const DiscountButton = () => {
 
     return (
         <button className={'discount-button'}
-                onClick={() => handleClick('discount')}>
+                onClick={() => handleClick()}>
             <span>{'Feedback'}<br/>{'+'}<br/>{'20%'}<br/>{'Gutschein'}</span>
         </button>
     )
